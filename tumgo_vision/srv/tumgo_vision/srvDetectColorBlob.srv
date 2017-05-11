@@ -1,0 +1,12 @@
+bool bbox
+int32 in_x
+int32 in_y
+int32 in_width
+int32 in_height
+---
+string color
+bool valid
+int32 x
+int32 y
+int32 width
+int32 height

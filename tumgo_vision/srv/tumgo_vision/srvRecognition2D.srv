@@ -1,0 +1,8 @@
+sensor_msgs/Image frame
+---
+string[] labels
+float32[] percent
+int32[] bb_minx
+int32[] bb_maxx
+int32[] bb_miny
+int32[] bb_maxy

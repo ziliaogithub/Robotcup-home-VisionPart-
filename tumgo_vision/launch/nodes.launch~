@@ -1,0 +1,5 @@
+<launch>
+
+  <!-- node name="reasoning_node" pkg="tumgo_reasoning" type="reasoning_node" cwd="node" output="screen" / -->
+
+</launch>

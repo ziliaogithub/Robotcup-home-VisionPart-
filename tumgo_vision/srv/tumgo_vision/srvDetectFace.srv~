@@ -1,0 +1,9 @@
+
+---
+bool result
+string[] name
+int32 face_count
+int32[] x
+int32[] y
+int32[] width
+int32[] height

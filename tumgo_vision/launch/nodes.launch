@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+	
+  <param name="show_raw"  value="true" />
+  <param name="show_cloud"  value="true" />
+  <param name="show_images"  value="true" />
+  <param name="show_colors"  value="true" />
+  <param name="synchronize"  value="false" />
+  <param name="robot"  value="true" />
+  <param name="darknet_dir"  value="$(find tumgo_vision)/darknet" />
+  <param name="models_dir"  value="$(find tumgo_vision3D)/src/models/" />
+  <param name="cascades"  value="$(find tumgo_vision)/cascades" />
+  <node name="tumgo_human_detection_node" pkg="tumgo_vision" type="tumgo_human_detection_node" cwd="node" output="screen" />
+  <node name="tumgo_vision" pkg="tumgo_vision" type="tumgo_vision" cwd="node" output="screen" />
+  <node name="tumgo_vision2D" pkg="tumgo_vision" type="tumgo_vision2D" cwd="node" output="screen" />
+  <node name="tumgo_vision3D" pkg="tumgo_vision3D" type="tumgo_vision3D" cwd="node" output="screen" />
+  <!-- <node name="tumgo_label" pkg="tumgo_vision" type="darknet.py" cwd="node" output="screen" > -->
+<!--   </node> -->
+
+</launch>

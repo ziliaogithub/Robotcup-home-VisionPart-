@@ -1,0 +1,7 @@
+---
+int16 personID
+bool result
+int32 x
+int32 y
+int32 z
+sensor_msgs/PointCloud2 cloud
